@@ -46,7 +46,7 @@ type Configuration struct {
 
 func main() {
 	r := chi.NewRouter()
-
+	// vbk
 	// A good base middleware stack
 	r.Use(middleware.RequestID)
 	r.Use(middleware.RealIP)
